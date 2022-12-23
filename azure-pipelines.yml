@@ -20,8 +20,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-  displayName: 'npm install'
+    npm install --legacy-peer-deps
+  displayName: 'npm install --legacy-peer-deps'
 
 #- script: |
 #    npm run lint
